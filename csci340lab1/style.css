@@ -1,28 +1,23 @@
 body {
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
+    text-align: center;
 }
 
-header {
-    padding: 20px 0;
+h1 {
+    font-family: 'Raleway', sans-serif;
+    color:cornflowerblue;
 }
 
-header .row,
-footer .row {
-    align-items: center;
+h2 {
+    font-family: 'Raleway', sans-serif;
+    color:cadetblue;
 }
 
-header h1 {
-    font-weight: 700;
-    margin: 0;
+.gallery {
+    margin: 20px;
 }
 
-header p {
-    padding: 0 20px;
-    margin: 0;
-}
-
-footer {
-    font-size: 12px;
-    padding: 20px 0;
+.gallery .picture {
+    border: 5px solid #fff;
 }
