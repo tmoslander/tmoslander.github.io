@@ -1,0 +1,28 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+header {
+    padding: 20px 0;
+}
+
+header .row,
+footer .row {
+    align-items: center;
+}
+
+header h1 {
+    font-weight: 700;
+    margin: 0;
+}
+
+header p {
+    padding: 0 20px;
+    margin: 0;
+}
+
+footer {
+    font-size: 12px;
+    padding: 20px 0;
+}
