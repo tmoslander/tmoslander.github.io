@@ -11,18 +11,20 @@ body {
 h1 {
     font-family: 'Raleway', sans-serif;
     color:cornflowerblue;
+    text-align: center;
 }
 
 h2 {
     font-family: 'Raleway', sans-serif;
     color:cadetblue;
+    text-align: center;
 }
 
 .gallery {
     margin: 20px;
 }
 
-.gallery .picture {
+.picture {
     border: 5px solid #fff;
     height: 300 px;
     width: 100 px;
