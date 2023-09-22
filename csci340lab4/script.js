@@ -31,6 +31,7 @@ $(document).ready(function() {
     });
     $('#clicker2').click(function() {
         console.log("Card button!");
-        $('#card').attr("src", cards["data"][4]["images"]["large"]);
+        rand_num = Math.round(Math.random() * 250)
+        $('#card').attr("src", cards["data"][rand_num]["images"]["large"]);
     });
 });
