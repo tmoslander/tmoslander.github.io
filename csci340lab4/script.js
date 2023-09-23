@@ -23,7 +23,8 @@ $(document).ready(function() {
         success: function(results) {
             console.log(results);
             cards = results;
-            $('#card').attr("src", results["data"][0]["images"]["large"]);
+            rand_num1 = Math.round(Math.random() * 250)
+            $('#card').attr("src", results["data"][rand_num1]["images"]["large"]);
         },
         error: function(xhr,status,error) {
             console.log(error);
@@ -31,7 +32,7 @@ $(document).ready(function() {
     });
     $('#clicker2').click(function() {
         console.log("Card button!");
-        rand_num = Math.round(Math.random() * 250)
-        $('#card').attr("src", cards["data"][rand_num]["images"]["large"]);
+        rand_num2 = Math.round(Math.random() * 250)
+        $('#card').attr("src", cards["data"][rand_num2]["images"]["large"]);
     });
 });
