@@ -1,5 +1,38 @@
+body {
+    background-color: lightskyblue;
+}
+
 h1 {
     font-family: 'Lato', courier;
     font-size: 6em;
     text-align: center;
+    color: lightseagreen;
+}
+
+p {
+    font-family: 'Lato', courier;
+    font-size: 2em;
+    text-align: center;
+    color: lightseagreen;
+}
+
+.container {
+    text-align: center;
+    margin: auto;
+}
+
+#clicker1 {
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+    padding: 12px 28px;
+    border-radius: 12px;
+}
+
+#clicker2 {
+    background-color: darkseagreen;
+    color: black;
+    text-align: center;
+    padding: 12px 28px;
+    border-radius: 12px;
 }
